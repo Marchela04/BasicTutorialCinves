@@ -1,5 +1,10 @@
-pandas
-uproot
-numpy
-matplotlib
-root==6.22.0
+name: Tutobasic
+channels:
+  - conda-forge
+dependencies:
+  - python >=3.8
+  - numpy >=1.18
+  - matplotlib >=3
+  - pandas >=1
+  - root=6.22.0
+
